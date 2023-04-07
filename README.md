@@ -6,7 +6,7 @@ As a Senior Backend Candidate I need to Design and Implement a service that can 
 - [x] Upload the solution to a versioning tool (Github, Bitbucket, GitLab).
 - [ ] Document how your API is to be used. ( Upload swagger file to swagger UI ? ).
 ### Optional
-- [ ]Deploy the solution to a free cloud platform ( Google App Engine, AWS , etc ).
+- [ ] Deploy the solution to a free cloud platform ( Google App Engine, AWS , etc ).
 ### Recommendations
 - [ ] Leverage using the following free APIs to complete the exercise.
 	a. IP Geolocation: https://ip-api.complete
