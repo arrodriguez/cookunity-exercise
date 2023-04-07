@@ -3,17 +3,17 @@ Take home exercise required for appylying to Cook Unity as Senior Backend Engine
 ## Problem statement
 As a Senior Backend Candidate I need to Design and Implement a service that can expose a RESTfull API that will trace the location information associated with a determined IP address received by the service. Also it is required that the API will return statistics about several metrics associated with the resoluted location.
 ### Requirements 
-- [X] Upload the solution to a versioning tool (Github, Bitbucket, GitLab).
-- [] Document how your API is to be used. ( Upload swagger file to swagger UI ? ).
+- [x] Upload the solution to a versioning tool (Github, Bitbucket, GitLab).
+- [ ] Document how your API is to be used. ( Upload swagger file to swagger UI ? ).
 ### Optional
-- []Deploy the solution to a free cloud platform ( Google App Engine, AWS , etc ).
+- [ ]Deploy the solution to a free cloud platform ( Google App Engine, AWS , etc ).
 ### Recommendations
-1. Leverage using the following free APIs to complete the exercise.
+- [ ] Leverage using the following free APIs to complete the exercise.
 	a. IP Geolocation: https://ip-api.complete
 	b. Currency conversions: https://fixer.io.
-2. Bear in mind that expected througput may vary from 1k to 5M requests per minute,
+- [ ] Bear in mind that expected througput may vary from 1k to 5M requests per minute,
    The solution has to be deployed in a high-concurrency environment.
-3. [X] Assume reasonable answers to all the questions you may have, and document them clearly in the readme file.
+- [X] Assume reasonable answers to all the questions you may have, and document them clearly in the readme file.
 ## Resolution process summary
 ### Understanding the problem - Duh !
 Yes, Understanding the problem might sound trivial but even going for the first intuition which means to do a simple handover between the request service and [ip-api](https://ip-api.com/#pricing) service requires a quick research. Just looking at the root of the page ) one can see that the free tier of the service only allows 45 rpm then requests will be throttled. Moreover looking at the [documentation](https://ip-api.com/docs/api:json) there is some warnings on going beyond limits too often, IP addresses could be banned.
